@@ -1,0 +1,24 @@
+{
+  "name": "@celeri/express-middleware",
+  "version": "1.0.0",
+  "description": "Converts express style middlewares into celeri middlewares",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celeri-server/express-middleware.git"
+  },
+  "keywords": [
+    "celeri",
+    "express",
+    "middleware"
+  ],
+  "author": "James Brumond <james@jbrumond.me> (http://www.jbrumond.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/celeri-server/express-middleware/issues"
+  },
+  "homepage": "https://github.com/celeri-server/express-middleware#readme"
+}
