@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/celeri-server/express-middleware/issues"
   },
-  "homepage": "https://github.com/celeri-server/express-middleware#readme"
+  "homepage": "https://github.com/celeri-server/express-middleware#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-celeri": "^1.0.0"
+  }
 }
