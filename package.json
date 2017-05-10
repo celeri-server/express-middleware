@@ -2,7 +2,7 @@
   "name": "@celeri/express-middleware",
   "version": "1.0.2",
   "description": "Converts express style middlewares into celeri middlewares",
-  "main": "src/index.js",
+  "main": "build/index.js",
   "scripts": {
     "build": "babel src --out-dir build",
     "postinstall": "postinstall-build build"
