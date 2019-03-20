@@ -1,5 +1,8 @@
 
-export const convertMiddleware = (middleware) => {
+import { MiddlewareInput } from '@celeri/http-server';
+import { ErrorMiddlewareFunction } from '@celeri/middleware-pipeline';
+
+export const convertMiddleware = (middleware) : ErrorMiddlewareFunction<MiddlewareInput> => {
 	return ({ req, res, error }) => new Promise((resolve, reject) => {
 		const next = (error) => {
 			if (error) {
