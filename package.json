@@ -1,6 +1,6 @@
 {
   "name": "@celeri/express-middleware",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "Converts express style middlewares into celeri middlewares",
   "main": "build/index.js",
   "scripts": {
